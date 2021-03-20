@@ -4,13 +4,8 @@ import json
 
 config = get_config()
 
-"""
-TODO: Write your snake logic here. See sample data argument below.
-"""
 def choose_move(data):
-    print(data)
-    directions = ['up', 'down', 'left', 'right']
-    return random.choice(directions)
+    return "right"
 
 """
 Sample data:
